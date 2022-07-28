@@ -1,0 +1,22 @@
+{
+  "name": "@hideoo/tsconfig",
+  "description": "HiDeoo's TypeScript configuration",
+  "homepage": "https://github.com/HiDeoo/tsconfig",
+  "version": "0.0.1",
+  "author": "HiDeoo",
+  "main": "tsconfig.json",
+  "license": "MIT",
+  "keywords": [
+    "typescript",
+    "config",
+    "tsconfig",
+    "ts"
+  ],
+  "bugs": {
+    "url": "https://github.com/HiDeoo/tsconfig/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HiDeoo/tsconfig"
+  }
+}
