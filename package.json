@@ -9,7 +9,8 @@
   "keywords": [
     "typescript",
     "config",
-    "tsconfig"
+    "tsconfig",
+    "ts"
   ],
   "bugs": {
     "url": "https://github.com/HiDeoo/tsconfig/issues"
