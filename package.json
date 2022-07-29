@@ -2,7 +2,7 @@
   "name": "@hideoo/tsconfig",
   "description": "HiDeoo's TypeScript configuration",
   "homepage": "https://github.com/HiDeoo/tsconfig",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "HiDeoo",
   "main": "tsconfig.json",
   "license": "MIT",
