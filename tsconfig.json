@@ -24,10 +24,6 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "ES2021",
-    // Path-based options are resolved from the config file they're found in which is kinda useless for a shareable
-    // config.
-    // https://github.com/microsoft/TypeScript/issues/29172
-    // "typeRoots": ["node_modules/@types", "types"],
     "useDefineForClassFields": true
   }
 }
