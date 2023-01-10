@@ -1,22 +1,42 @@
 {
   "name": "@hideoo/tsconfig",
-  "description": "HiDeoo's TypeScript configuration",
-  "homepage": "https://github.com/HiDeoo/tsconfig",
   "version": "0.1.0",
-  "author": "HiDeoo",
-  "main": "tsconfig.json",
   "license": "MIT",
+  "description": "HiDeoo's TypeScript configuration",
+  "author": "HiDeoo <github@hideoo.dev> (https://hideoo.dev)",
+  "main": "tsconfig.json",
+  "scripts": {
+    "lint": "prettier -c --cache .",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@hideoo/prettier-config": "0.1.1",
+    "husky": "8.0.3",
+    "lint-staged": "13.1.0",
+    "prettier": "2.8.2"
+  },
+  "packageManager": "pnpm@7.23.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false,
+  "files": [
+    "tsconfig.json"
+  ],
   "keywords": [
     "typescript",
     "config",
     "tsconfig",
     "ts"
   ],
-  "bugs": {
-    "url": "https://github.com/HiDeoo/tsconfig/issues"
-  },
+  "homepage": "https://github.com/HiDeoo/tsconfig",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HiDeoo/tsconfig"
+    "url": "https://github.com/HiDeoo/tsconfig.git"
+  },
+  "bugs": "https://github.com/HiDeoo/tsconfig/issues",
+  "prettier": "@hideoo/prettier-config",
+  "lint-staged": {
+    "**/*": "prettier -w -u --cache"
   }
 }
