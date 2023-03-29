@@ -12,7 +12,7 @@
 
 ## Usage
 
-> **Note** This configuration requires at least TypeScript v4.4.0.
+> **Note** This configuration requires at least TypeScript v5.0.0.
 
 ### Install
 
