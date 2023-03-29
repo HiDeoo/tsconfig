@@ -23,7 +23,7 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "ES2021",
+    "target": "ESNext",
     "useDefineForClassFields": true
   }
 }
