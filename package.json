@@ -15,7 +15,18 @@
     "lint-staged": "13.1.0",
     "prettier": "2.8.2"
   },
-  "packageManager": "pnpm@12.3.4",
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": ">=24",
+      "onFail": "download"
+    },
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.3.4",
+      "onFail": "download"
+    }
+  },
   "publishConfig": {
     "access": "public"
   },
