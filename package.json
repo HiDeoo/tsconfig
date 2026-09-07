@@ -13,8 +13,8 @@
   "devDependencies": {
     "@changesets/changelog-github": "^1.0.1",
     "@changesets/cli": "^3.0.2",
-    "@hideoo/prettier-config": "2.0.1",
-    "prettier": "3.9.6"
+    "@hideoo/prettier-config": "^2.0.1",
+    "prettier": "^3.9.6"
   },
   "devEngines": {
     "runtime": {
