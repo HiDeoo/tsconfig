@@ -110,19 +110,19 @@ importers:
   .:
     devDependencies:
       '@hideoo/prettier-config':
-        specifier: 0.1.1
-        version: 0.1.1
+        specifier: 2.0.1
+        version: 2.0.1
       node:
         specifier: runtime:>=24
         version: runtime:26.8.1
       prettier:
-        specifier: 2.8.2
-        version: 2.8.2
+        specifier: 3.9.6
+        version: 3.9.6
 
 packages:
 
-  '@hideoo/prettier-config@0.1.1':
-    resolution: {integrity: sha512-ACVLh1t7HVfgqWv2U/GfMx+hGNHwvJHhOOukV0kQ4dqhRy1pzxXR3VggBgEHGf0VE4dW63XPV5CjNSSqyx//yw==}
+  '@hideoo/prettier-config@2.0.1':
+    resolution: {integrity: sha512-FIbe9hUglcv93EOwTWEirqupbKNYCbfl5DiIKo6ORKE8kBIcuUdm5TgdnrQ305qUCvxJjXTQ8wpmVRFuD0FO8w==}
 
   node@runtime:26.8.1:
     resolution:
@@ -256,15 +256,15 @@ packages:
     version: 26.8.1
     hasBin: true
 
-  prettier@2.8.2:
-    resolution: {integrity: sha512-BtRV9BcncDyI2tsuS19zzhzoxD8Dh8LiCx7j7tHzrkz8GFXAexeWFdi22mjE1d16dftH2qNaytVxqiRTGlMfpw==}
-    engines: {node: '>=10.13.0'}
+  prettier@3.9.6:
+    resolution: {integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==}
+    engines: {node: '>=14'}
     hasBin: true
 
 snapshots:
 
-  '@hideoo/prettier-config@0.1.1': {}
+  '@hideoo/prettier-config@2.0.1': {}
 
   node@runtime:26.8.1: {}
 
-  prettier@2.8.2: {}
+  prettier@3.9.6: {}

@@ -10,8 +10,8 @@
     "format": "prettier -w --cache ."
   },
   "devDependencies": {
-    "@hideoo/prettier-config": "0.1.1",
-    "prettier": "2.8.2"
+    "@hideoo/prettier-config": "2.0.1",
+    "prettier": "3.9.6"
   },
   "devEngines": {
     "runtime": {
